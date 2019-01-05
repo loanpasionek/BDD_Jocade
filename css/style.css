@@ -1,0 +1,384 @@
+html{font-size:62.5%;}
+body{overflow-x:hidden;}
+
+
+
+/* ----------------------- Polices ----------------------- */
+
+            /* Familles */
+
+            .titillium{font-family:'Titillium Web', sans-serif;}
+
+
+            /* Tailles */
+
+            .bold{font-weight:700;}
+            .semi-bold{font-weight: 600;}
+            .fs80{font-size:8rem;}
+            .fs60{font-size:6rem;}
+            .fs40{font-size:4rem;}
+            .fs36{font-size:3.6rem;}
+            .fs32{font-size:3.2rem;}
+            .fs28{font-size:2.8rem;}
+            .fs24{font-size:2.4rem;}
+            .fs20{font-size:2rem;}
+            .fs18{font-size:1.8rem;}
+            .fs15{font-size:1.5rem;}
+            
+
+/* ----------------------- Couleurs ----------------------- */
+
+
+            .color1{color:#E64A19 !important;} /* orange */
+            .color2{color:#757575;} /* gris foncé */
+            .color3{color:#E3E7E7;} /* gris */
+            .color4{color:#2a2a2a !important;} /* noir */
+            .color5{color:#14293E !important;} /* bleu */
+            .color6{color:#f2f2f2;} /* blanc */
+            .color7{color:#2D0F05;} /* rouge foncé */
+                    
+
+            /* Backgrounds */
+
+            .bgcolor1{background-color: #FF5722; } /* orange */
+            .bgcolor2{background-color: #E3E7E7;} /* gris */
+            .bgcolor3{background-color:#14293E;} /* bleu */
+            .bgcolor4{background-color:#2a2a2a;} /* noir */
+            .bgcolor5{background-color:#D9D9D9;} /* bleu clair */
+            .bgcolor6{background-color:#231202;} /* bg de la nav mobile */
+            .bgcolor7{background-color:#f2f2f2;} /* blanc */
+            .bgcolor8{background-color: #757575;} /* gris foncé */
+            .bgcolor9{background-color: #2D0F05;} /* rouge foncé */
+
+            
+            .divider-color{ border-color: #BDBDBD; }
+            .nav-nocolor
+            {
+                background: none;
+                transition: 0.5s linear;
+            }
+
+/* ----------------------- Heights ----------------------- */
+            .maxH{height:calc(100vh - 55px);}
+            .h100{height:100%;}
+            .h100vh{height:100vh;}
+            .h100minusNav{height:calc(100vh - 64px);}
+            .h660p{height:660px;}
+            .h500p{height:500px;}
+            .h360p{height:360px;}
+            .h350p{height:350px;}
+            .h300p{height:300px;}
+            .h275p{height:275px;}
+            .h230p{height:230px;}
+
+
+/* ----------------------- Widths ----------------------- */
+
+            .w100{width:100%;}
+            .w95{width:95%;}
+            .w85{width:85%;}
+            .w75{width:75%;}
+            .w70{width:70%;}
+            .w66{width:66%;}
+            .w60{width:60%;}
+            .w50{width:50%;}
+            .w33{width:33%;}
+            .w25{width:25%;}
+            .w23{width:23%;}
+            .w20{width:20%;}
+            .w15{width:15%}
+            .w300p{width:300px;}
+            .w165p{width:165px;}
+
+/* ----------------------- Margins & Paddings ----------------------- */
+            
+            .mtop75p{margin-top:75px;}
+            .mtop45p{margin-top:45px;}
+            .mtop40p{margin-top:40px;}
+            .mtop30p{margin-top:30px;}
+            .mtop20p{margin-top:20px;}
+            .mtop15p{margin-top:15px;}
+            .mtop2p{margin-top:2px;}
+
+            .mbot30p{margin-bottom:30px;}
+            .mbot20p{margin-bottom:20px;}
+
+            .mleft40p{margin-left:40px;}
+            .mleft2p{margin-left:2px;}
+
+            .mright20p{margin-right: 20px;}
+            
+
+            .padd40p{padding:40px;}
+            .padd20p{padding:20px;}
+            .padd0-20-0-20p{padding: 0 20px 0 20px;}
+            
+            .nomargin{margin: 0;}
+            .nopadding{padding:0;}
+
+
+/* ----------------------- Génériques ----------------------- */
+
+            /* Display and justify */
+
+            .flex{display: flex;}
+            .block{display:block;}
+            .iblock{display: inline-block;}
+            .column{ flex-direction:column;}
+            .jcbetween{justify-content: space-between;}
+            .jcaround{justify-content: space-around;}
+            .jccenter{justify-content: center;}
+            .aicenter{align-items:center;}
+            .txtcenter{text-align:center;}
+            .txtmiddle{vertical-align:middle;}
+            .hidden{visibility:hidden;}
+
+
+            /* Positions */
+
+            .absolute{position:absolute;}
+            .fixed{position:fixed;}
+            .relative{position: relative;}
+                
+            .valign
+            {       
+                position:absolute;
+                top:50%;
+                transform:translateY(-50%);
+            }
+            
+            .textjustify{text-align:justify;}
+            .center{margin:auto;}
+            .right-float{float:right;}
+
+
+
+/* ----------------------- Spécifiques ----------------------- */
+
+            
+            /* --- Ecriture verticale --- */
+            .rotated
+            {
+                writing-mode: tb-rl;
+                transform: rotate(-180deg);
+            }
+
+            /* --- Modal --- */
+
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            }
+
+            /* Modal Content/Box */
+            .modal-content {
+                background-color: #fefefe;
+                margin: 15% auto; /* 15% from the top and centered */
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%; /* Could be more or less, depending on screen size */
+            }
+
+            /* The Close Button */
+            .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .h2padd{padding:40px 0;}
+            .hr-bold{border: 2px;}
+            #computer{
+                position: absolute;
+                width: 400px;
+                height: 400px;
+            }
+            
+            .noborder{border:none;}
+
+            nav{box-shadow: none;}
+
+            nav ul a:focus::after{border-bottom: 1px solid blue;}
+            a:hover{color:#FF5722 !important;}
+
+            .faHover:hover{color:#ffff !important;}
+            .lh0{line-height: 0;}
+
+            .opacity95{opacity:0.95;}
+            .opacity20
+            {
+                opacity:0.20;
+                transition: 0.5s linear;
+            }
+            .opacity100
+            {
+                opacity: 1;
+                transition: 0.5 linear;
+            }
+
+            .row:last-child, .row {margin-bottom: 0;}
+       
+
+            #lienProjet:hover
+            {
+                transform: scale(1.05);
+                transition: 0.2s all ease;
+                color:black;
+            }
+            #lienProjet
+            {
+                border-radius: 2px;
+                padding:5px;
+                -webkit-backface-visibility: hidden;
+                -webkit-transform: translateZ(0) scale(1.0, 1.0);
+            }
+
+            #work button
+            {
+                width: 190px;
+                margin:14px;
+                font-size:1.4rem;
+                border-radius:2px;
+                padding:5px;
+            }
+
+/* ----------------------- Mur d'images ----------------------- */
+            
+
+            /* --- Style du menu pour le mur d'images --- */
+
+            #hobbies button
+            {
+            width: 115px;
+            height: 30px;
+            margin:14px;
+            font-size:1.4rem;
+            border-radius:2px;
+            }
+            
+            .grid{min-height: 500px;}    
+            .grid-item, .grid-item-med, .grid-item-lg, .tooltip, .tooltiptext 
+            {
+                float: left;
+                width:115px;
+                margin-bottom: 0;
+            }
+            .grid-item, .grid-item-med, .grid-item-lg {display: block;}
+            .grid-item {height: 53.75px;}
+            .grid-item-med {height: 107.5px;}
+            .grid-item-lg {height: 161.25px;}
+        
+            .imgCulture 
+            {
+                width: 100%;
+                /* règle le problème de hover qui décale l'image d'1px*/
+                -webkit-backface-visibility: hidden;
+                -webkit-transform: translateZ(0) scale(1.0, 1.0);
+            }
+
+        
+            button:hover{cursor: pointer;}
+            button:active, button:focus
+            {
+                background-color:#f2f2f2;
+                border: 1px solid rgb(255, 149, 114);
+            }
+            
+            button:active li, button:focus li{color:#2D0F05;}
+
+                   
+
+            /* --- Tooltip sur le mur d'images --- */
+
+            .tooltip 
+            {
+                position: relative;
+                display: inline-block;
+            }
+
+            .tooltip .tooltiptext 
+            {
+                visibility: hidden;
+                background-color:#2D0F05;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+                font-size:1.2rem;
+                position: absolute;
+                z-index: 1;
+            }
+            
+            .tooltip:hover .tooltiptext 
+            {
+                visibility: visible;
+                top:-28px;
+                left:0;
+            }
+              
+
+            .imgCulture:hover
+            {
+                opacity:0.50;
+                transition:0.3s linear;
+            }
+
+            
+
+/* ----------------------- Effet Parallax ----------------------- */
+
+            .slide1{background: url('../img/bg_forest.jpg') center no-repeat fixed;}
+            
+            .slide2{background: url('../img/bg_keyboard.jpg') center no-repeat fixed;}
+
+            .slide3{background:url('../img/bg_nightforest.jpg') center no-repeat fixed}
+
+
+/* ----------------------- Changement de nav selon position dans la page ----------------------- */
+
+            .navChange
+            {
+                background-color:#14293E;
+                opacity:0.85;
+                transition: 0.5s linear;
+            }
+            .navChange2
+            {
+                background-color:#2D0F05;
+                
+                transition: 0.5s linear;
+            }
+
+
+/* ----------------------- Style Owl-Carousel ----------------------- */
+
+.owl-carousel{
+    position: relative;
+  }
+  
+  .owl-dots{
+    position: absolute;
+    top:70%;
+    left:14%;
+  }
+
+  .owl-stage-outer{margin-left: 8%;}
+
+  .owl-dot{width:0% !important;}
+  .owl-theme .owl-dots .owl-dot.active span{background-color:#E64A19;}
