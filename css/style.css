@@ -7,7 +7,11 @@ body{overflow-x:hidden;}
 
             /* Familles */
 
-            .titillium{font-family:'Titillium Web', sans-serif;}
+            @font-face{
+                font-family: "Hp simplified";
+                src:local("c:\windows\fonts\hp-simplified-265.ttf");
+            }
+            .hp{font-family: "Hp simplified";}
 
 
             /* Tailles */
@@ -29,7 +33,7 @@ body{overflow-x:hidden;}
 /* ----------------------- Couleurs ----------------------- */
 
 
-            .color1{color:#E64A19 !important;} /* orange */
+            .color1{color:#D66A27 !important;} /* jocade */
             .color2{color:#757575;} /* gris foncé */
             .color3{color:#E3E7E7;} /* gris */
             .color4{color:#2a2a2a !important;} /* noir */
@@ -40,7 +44,7 @@ body{overflow-x:hidden;}
 
             /* Backgrounds */
 
-            .bgcolor1{background-color: #FF5722; } /* orange */
+            .bgcolor1{background-color: #F8F9FA; } /* bleu clair jocade */
             .bgcolor2{background-color: #E3E7E7;} /* gris */
             .bgcolor3{background-color:#14293E;} /* bleu */
             .bgcolor4{background-color:#2a2a2a;} /* noir */
@@ -87,6 +91,7 @@ body{overflow-x:hidden;}
             .w23{width:23%;}
             .w20{width:20%;}
             .w15{width:15%}
+            .w2{width:2%;}
             .w300p{width:300px;}
             .w165p{width:165px;}
 
@@ -111,6 +116,7 @@ body{overflow-x:hidden;}
 
             .padd40p{padding:40px;}
             .padd20p{padding:20px;}
+            .padd15p{padding:15px;}
             .padd0-20-0-20p{padding: 0 20px 0 20px;}
             
             .nomargin{margin: 0;}
@@ -256,6 +262,13 @@ body{overflow-x:hidden;}
                 font-size:1.4rem;
                 border-radius:2px;
                 padding:5px;
+            }
+
+            #button_form
+            {
+                color:#D66A27 !important;
+                
+                
             }
 
 /* ----------------------- Mur d'images ----------------------- */
