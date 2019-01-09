@@ -1,0 +1,8 @@
+- CRUD :
+	- création d'une fiche client
+	- mise à jour des infos
+	- suppression
+- Vérifier si fiche déjà existante
+- Association clients / jeux
+- Recherche client
+- Styliser l'affichage "clients"
